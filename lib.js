@@ -18,9 +18,15 @@ function libfunc4(callback) {
 	callback();
 }
 
+function libfunc5(callback) {
+	console.log("libfunc5");
+	callback();
+}
+
 module.exports = {
 	libfunc1: libfunc1,
 	libfunc2: libfunc2,
 	libfunc3: libfunc3,
 	libfunc4: libfunc4,
+	libfunc5: libfunc5,
 }
